@@ -1,0 +1,16 @@
+{
+  "theme": "amber",
+  "items": [
+    { "label": "Open WezTerm",          "type": "exe",  "target": "wezterm-gui" },
+    { "label": "Open Terminal (Admin)", "type": "exe",  "target": "wt.exe", "admin": true },
+    { "label": "Obsidian",              "type": "exe",  "target": "%LOCALAPPDATA%\\Programs\\Obsidian\\Obsidian.exe" },
+    { "label": "Claude Code",           "type": "exe",  "target": "%LOCALAPPDATA%\\AnthropicClaude\\claude.exe" },
+    { "label": "GitHub",                "type": "url",  "target": "https://github.com" },
+    { "label": "Insert: Salam",         "type": "text", "target": "Salam,\nZaki" },
+    { "label": "Select All + Copy",     "type": "keys", "target": "ctrl+a ctrl+c" },
+    { "label": "Sistem", "children": [
+      { "label": "Lock PC", "type": "builtin", "target": "lock" },
+      { "label": "Sleep",   "type": "builtin", "target": "sleep" }
+    ]}
+  ]
+}
